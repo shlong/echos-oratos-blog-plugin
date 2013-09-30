@@ -30,7 +30,7 @@ class Credits_Widget extends WP_Widget {
      */
     public function widget( $args, $instance ) {
         $url = get_site_url( null, '/credits' );
-        echo '<a href="' . $url . '">Credits</a>';
+        echo '<a class="credits" href="' . $url . '">Credits</a>';
     }
 
 } // class Credits_Widget
